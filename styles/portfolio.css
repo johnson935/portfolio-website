@@ -106,6 +106,14 @@ nav{
   .burger{
     display: block;
   }
+
+  #Skills .card-body ul{
+    flex-direction: column;
+    align-items: center;
+  }
+  #Skills .card-body li{
+    padding-bottom: 2%;
+  }
 }
 .navActive{
   transform: translateX(0%);
@@ -252,4 +260,13 @@ body, html {
   60% {
     transform: translateY(-15px);
   }
+}
+
+#Skills .card-body ul{
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: bold;
+}
+#Skills .card-body li{
+  list-style: none;
 }

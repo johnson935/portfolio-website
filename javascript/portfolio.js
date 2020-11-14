@@ -20,6 +20,11 @@ $( document ).ready(function() {
             scrollTop: $('#Contact').offset().top
         }, 500);
     });
+    $('#skills-link').on('click', function(){
+        $('html, body').animate({
+            scrollTop: $('#Skills').offset().top
+        }, 500);
+    });
     $('#logo').on('click', function(){
         $('html, body').animate({
             scrollTop: $('#front-page').offset().top
